@@ -39,5 +39,5 @@ public interface ASTHelperFactory {
      * @return the AST helper acting on the file
      */
     @SuppressWarnings("rawtypes")
-    ASTHelper create(File file, String version);
+    ASTHelper create(String file, String version);
 }

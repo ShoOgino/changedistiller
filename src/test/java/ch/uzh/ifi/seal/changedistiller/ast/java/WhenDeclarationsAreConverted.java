@@ -19,6 +19,7 @@ package ch.uzh.ifi.seal.changedistiller.ast.java;
  * limitations under the License.
  * #L%
  */
+import javax.swing.tree.TreeNode;
 
 import static org.hamcrest.CoreMatchers.is;
 
@@ -586,8 +587,8 @@ public class WhenDeclarationsAreConverted extends WhenASTsAreConverted {
         assertThat(getSource(modifiers), is(concatedModifiers));
         assertThat(modifiers.getLabel(), is(JavaEntityType.MODIFIERS));
         int i = 0;
-        for (Enumeration<Node> e = modifiers.children(); e.hasMoreElements(); i++) {
-            Node modifier = e.nextElement();
+        for (Enumeration<TreeNode> e = modifiers.children(); e.hasMoreElements(); i++) {
+            Node modifier = (Node)e.nextElement();
             assertThat(getSource(modifier), is(modifierNames[i]));
             assertThat(modifier.getLabel(), is(JavaEntityType.MODIFIER));
         }

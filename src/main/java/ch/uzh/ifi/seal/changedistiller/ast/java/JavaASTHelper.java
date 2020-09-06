@@ -65,7 +65,7 @@ public class JavaASTHelper implements ASTHelper<JavaStructureNode> {
 
     @Inject
     JavaASTHelper(
-            @Assisted File file,
+            @Assisted String file,
             @Assisted String javaVersion,
             JavaASTNodeTypeConverter astHelper,
             JavaDeclarationConverter declarationConverter,

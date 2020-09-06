@@ -72,7 +72,7 @@ public class FileDistiller {
      * @param right
      *            file to extract changes
      */
-    public void extractClassifiedSourceCodeChanges(File left, File right) {
+    public void extractClassifiedSourceCodeChanges(String left, String right) {
     	extractClassifiedSourceCodeChanges(left, "default", right, "default");
     }
 
@@ -89,11 +89,11 @@ public class FileDistiller {
      * 			  version of the language in the right file
      */
     @SuppressWarnings("unchecked")
-    public void extractClassifiedSourceCodeChanges(File left, String leftVersion, File right, String rightVersion) {
+    public void extractClassifiedSourceCodeChanges(String left, String leftVersion, String right, String rightVersion) {
 
     	fLeftASTHelper = fASTHelperFactory.create(left, leftVersion);
         fRightASTHelper = fASTHelperFactory.create(right, rightVersion);
-        
+
         extractDifferences();
     }
 

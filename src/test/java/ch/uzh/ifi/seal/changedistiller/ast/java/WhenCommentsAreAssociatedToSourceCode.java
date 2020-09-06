@@ -41,6 +41,7 @@ import ch.uzh.ifi.seal.changedistiller.model.classifiers.java.JavaEntityType;
 import ch.uzh.ifi.seal.changedistiller.model.entities.SourceCodeEntity;
 import ch.uzh.ifi.seal.changedistiller.treedifferencing.Node;
 import ch.uzh.ifi.seal.changedistiller.util.CompilationUtils;
+import javax.swing.tree.TreeNode;
 
 public class WhenCommentsAreAssociatedToSourceCode extends JavaDistillerTestCase {
 	// see https://bitbucket.org/sealuzh/tools-changedistiller/issue/6
@@ -109,8 +110,8 @@ public class WhenCommentsAreAssociatedToSourceCode extends JavaDistillerTestCase
 
     @SuppressWarnings("unchecked")
     private Node findNode(String value) {
-        for (Enumeration<Node> e = sRoot.breadthFirstEnumeration(); e.hasMoreElements();) {
-            Node node = e.nextElement();
+        for (Enumeration<TreeNode> e = sRoot.breadthFirstEnumeration(); e.hasMoreElements();) {
+            Node node = (Node)e.nextElement();
             if (node.getValue().equals(value)) {
                 return node;
             }
