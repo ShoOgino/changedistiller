@@ -1,0 +1,25 @@
+-classpath
+'C:/Users/login/work/tools-changedistiller/target/classes;C:/maven/repository/org/eclipse/jdt/core/compiler/ecj/4.2.2/ecj-4.2.2.jar;C:/maven/repository/com/google/inject/guice/3.0/guice-3.0.jar;C:/maven/repository/com/google/inject/extensions/guice-assistedinject/3.0/guice-assistedinject-3.0.jar;C:/maven/repository/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar;C:/maven/repository/javax/inject/javax.inject/1/javax.inject-1.jar;C:/maven/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'C:/Users/login/work/tools-changedistiller/src/main/java'
+-Xdoclint:none
+-author
+-bottom
+'Copyright &#169; 2011-2020 <a href="http://seal.ifi.uzh.ch">Software Architecture and Evolution Lab, Department of Informatics, UZH</a>. All Rights Reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/login/work/tools-changedistiller/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'ChangeDistiller 0.0.1-SNAPSHOT API'
+-linkoffline
+'http://docs.oracle.com/javase/7/docs/api' 'C:/Users/login/work/tools-changedistiller/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'ChangeDistiller 0.0.1-SNAPSHOT API'

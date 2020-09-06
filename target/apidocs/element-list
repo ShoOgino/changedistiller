@@ -1,0 +1,15 @@
+ch.uzh.ifi.seal.changedistiller
+ch.uzh.ifi.seal.changedistiller.ast
+ch.uzh.ifi.seal.changedistiller.ast.java
+ch.uzh.ifi.seal.changedistiller.distilling
+ch.uzh.ifi.seal.changedistiller.distilling.refactoring
+ch.uzh.ifi.seal.changedistiller.model.classifiers
+ch.uzh.ifi.seal.changedistiller.model.classifiers.java
+ch.uzh.ifi.seal.changedistiller.model.entities
+ch.uzh.ifi.seal.changedistiller.structuredifferencing
+ch.uzh.ifi.seal.changedistiller.structuredifferencing.java
+ch.uzh.ifi.seal.changedistiller.treedifferencing
+ch.uzh.ifi.seal.changedistiller.treedifferencing.matching
+ch.uzh.ifi.seal.changedistiller.treedifferencing.matching.measure
+ch.uzh.ifi.seal.changedistiller.treedifferencing.operation
+org.eclipse.jdt.internal.core.util

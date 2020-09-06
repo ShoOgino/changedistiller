@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: ch.uzh.ifi.seal.changedistiller.ast.java.WhenSourceCodeChangesAreClassified
+-------------------------------------------------------------------------------
+Tests run: 98, Failures: 0, Errors: 0, Skipped: 9, Time elapsed: 0.111 sec

@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bundle-Description: Fine-grained source code change extractor
+Bundle-DocURL: http://seal.ifi.uzh.ch
+Bundle-ManifestVersion: 2
+Bundle-Name: ChangeDistiller OSGI Bundle
+Bundle-RequiredExecutionEnvironment: J2SE-1.5,JavaSE-1.6,JavaSE-1.7
+Bundle-SymbolicName: ch.uzh.ifi.seal.changedistiller
+Bundle-Vendor: Software Architecture and Evolution Lab, Department of In
+ formatics, UZH
+Bundle-Version: 0.0.1.SNAPSHOT
+Export-Package: ch.uzh.ifi.seal.changedistiller.structuredifferencing;ve
+ rsion="0.0.1",ch.uzh.ifi.seal.changedistiller.ast;version="0.0.1",ch.uz
+ h.ifi.seal.changedistiller.treedifferencing.operation;version="0.0.1",c
+ h.uzh.ifi.seal.changedistiller.ast.java;version="0.0.1",ch.uzh.ifi.seal
+ .changedistiller.distilling;version="0.0.1",ch.uzh.ifi.seal.changedisti
+ ller.model.classifiers.java;version="0.0.1",ch.uzh.ifi.seal.changedisti
+ ller.treedifferencing.matching;version="0.0.1",ch.uzh.ifi.seal.changedi
+ stiller.treedifferencing;version="0.0.1",ch.uzh.ifi.seal.changedistille
+ r.treedifferencing.matching.measure;version="0.0.1",ch.uzh.ifi.seal.cha
+ ngedistiller;version="0.0.1",ch.uzh.ifi.seal.changedistiller.model.clas
+ sifiers;version="0.0.1",ch.uzh.ifi.seal.changedistiller.model.entities;
+ version="0.0.1",ch.uzh.ifi.seal.changedistiller.distilling.refactoring;
+ version="0.0.1",ch.uzh.ifi.seal.changedistiller.structuredifferencing.j
+ ava;version="0.0.1"
+Import-Package: org.eclipse.jdt.core.compiler,org.eclipse.jdt.internal.c
+ ompiler,org.eclipse.jdt.internal.compiler.ast,org.eclipse.jdt.internal.
+ compiler.batch,org.eclipse.jdt.internal.compiler.env,org.eclipse.jdt.in
+ ternal.compiler.impl,org.eclipse.jdt.internal.compiler.lookup,org.eclip
+ se.jdt.internal.compiler.parser,org.eclipse.jdt.internal.compiler.probl
+ em
+Require-Bundle: com.google.inject;bundle-version="3.0.0"
