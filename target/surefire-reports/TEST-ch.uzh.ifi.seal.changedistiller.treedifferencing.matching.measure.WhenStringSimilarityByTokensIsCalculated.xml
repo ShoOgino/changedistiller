@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="ch.uzh.ifi.seal.changedistiller.treedifferencing.matching.measure.WhenStringSimilarityByTokensIsCalculated" time="0.005" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="ch.uzh.ifi.seal.changedistiller.treedifferencing.matching.measure.WhenStringSimilarityByTokensIsCalculated" time="0.007" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="14.0.1+7"/>
@@ -18,7 +18,7 @@
     <property name="java.runtime.version" value="14.0.1+7"/>
     <property name="basedir" value="C:\Users\login\work\tools-changedistiller"/>
     <property name="os.arch" value="amd64"/>
-    <property name="surefire.real.class.path" value="C:\Users\login\work\tools-changedistiller\target\surefire\surefirebooter9796543249808978537.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\login\work\tools-changedistiller\target\surefire\surefirebooter9029492391669213860.jar"/>
     <property name="java.io.tmpdir" value="C:\Users\login\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>
@@ -26,7 +26,7 @@
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
     <property name="sun.jnu.encoding" value="MS932"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\login\Anaconda3\envs\tm;C:\Users\login\Anaconda3\envs\tm\Library\mingw-w64\bin;C:\Users\login\Anaconda3\envs\tm\Library\usr\bin;C:\Users\login\Anaconda3\envs\tm\Library\bin;C:\Users\login\Anaconda3\envs\tm\Scripts;C:\Users\login\Anaconda3\envs\tm\bin;C:\Users\login\Anaconda3\condabin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\libnvvp;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\w32tex\bin;C:\Program Files (x86)\gs\gs9.23\bin;C:\Program Files (x86)\gs\gs9.23\lib;C:\Users\login\AppData\Local\Programs\Python\Python37-32\Scripts;C:\Program Files\Git\cmd;C:\Program Files\dotnet;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\Nsight Compute 2019.4.0;C:\opencv\build\x86\vc12\bin;C:\Program Files\Git LFS;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files\PuTTY;C:\Program Files\Java\jdk-14.0.1;C:\Program Files\Java\jdk-14.0.1\bin;C:\Program Files\MeCab\bin;C:\Program Files (x86)\GNU Tools ARM Embedded\7 2017-q4-major\bin;C:\Users\login\AppData\Local\Microsoft\WindowsApps;C:\Users\login\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\home\login\avr-gcc\bin;C:\Program Files\CMake\bin;C:\MinGW\bin;C:\Users\login\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Users\login\Anaconda3;C:\Users\login\Anaconda3\Scripts;C:\maven\bin;C:\Users\login\work\NuSMV-2.6.0-win64\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\login\Anaconda3;C:\Users\login\Anaconda3\Library\mingw-w64\bin;C:\Users\login\Anaconda3\Library\usr\bin;C:\Users\login\Anaconda3\Library\bin;C:\Users\login\Anaconda3\Scripts;C:\Users\login\Anaconda3\bin;C:\Users\login\Anaconda3\condabin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\libnvvp;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\w32tex\bin;C:\Program Files (x86)\gs\gs9.23\bin;C:\Program Files (x86)\gs\gs9.23\lib;C:\Users\login\AppData\Local\Programs\Python\Python37-32\Scripts;C:\Program Files\Git\cmd;C:\Program Files\dotnet;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\Nsight Compute 2019.4.0;C:\opencv\build\x86\vc12\bin;C:\Program Files\Git LFS;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Program Files\PuTTY;C:\Program Files\Java\jdk-14.0.1;C:\Program Files\Java\jdk-14.0.1\bin;C:\Program Files\MeCab\bin;C:\Program Files (x86)\GNU Tools ARM Embedded\7 2017-q4-major\bin;C:\Users\login\AppData\Local\Microsoft\WindowsApps;C:\Users\login\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\home\login\avr-gcc\bin;C:\Program Files\CMake\bin;C:\MinGW\bin;C:\Users\login\AppData\Local\hyper\app-3.0.2\resources\bin;C:\Users\login\Anaconda3;C:\Users\login\Anaconda3\Scripts;C:\maven\bin;C:\Users\login\work\NuSMV-2.6.0-win64\bin;."/>
     <property name="surefire.test.class.path" value="C:\Users\login\work\tools-changedistiller\target\test-classes;C:\Users\login\work\tools-changedistiller\target\classes;C:\maven\repository\junit\junit\4.11\junit-4.11.jar;C:\maven\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\maven\repository\com\google\inject\extensions\guice-assistedinject\3.0\guice-assistedinject-3.0.jar;C:\maven\repository\com\google\inject\guice\3.0\guice-3.0.jar;C:\maven\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\maven\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\maven\repository\org\eclipse\jdt\core\compiler\ecj\4.2.2\ecj-4.2.2.jar;C:\maven\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar;"/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="58.0"/>
@@ -34,14 +34,13 @@
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
     <property name="user.home" value="C:\Users\login"/>
-    <property name="user.timezone" value="Asia/Tokyo"/>
     <property name="file.encoding" value="MS932"/>
     <property name="java.specification.version" value="14"/>
     <property name="user.name" value="login"/>
     <property name="java.class.path" value="C:\Users\login\work\tools-changedistiller\target\test-classes;C:\Users\login\work\tools-changedistiller\target\classes;C:\maven\repository\junit\junit\4.11\junit-4.11.jar;C:\maven\repository\org\hamcrest\hamcrest-all\1.3\hamcrest-all-1.3.jar;C:\maven\repository\com\google\inject\extensions\guice-assistedinject\3.0\guice-assistedinject-3.0.jar;C:\maven\repository\com\google\inject\guice\3.0\guice-3.0.jar;C:\maven\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\maven\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\maven\repository\org\eclipse\jdt\core\compiler\ecj\4.2.2\ecj-4.2.2.jar;C:\maven\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar;"/>
     <property name="java.vm.specification.version" value="14"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="C:\Users\login\work\tools-changedistiller\target\surefire\surefirebooter9796543249808978537.jar C:\Users\login\work\tools-changedistiller\target\surefire\surefire12968757354393656881tmp C:\Users\login\work\tools-changedistiller\target\surefire\surefire8330629875550286575tmp"/>
+    <property name="sun.java.command" value="C:\Users\login\work\tools-changedistiller\target\surefire\surefirebooter9029492391669213860.jar C:\Users\login\work\tools-changedistiller\target\surefire\surefire11425905630977387850tmp C:\Users\login\work\tools-changedistiller\target\surefire\surefire1200634059300689907tmp"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-14.0.1"/>
     <property name="user.language" value="ja"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -60,7 +59,7 @@
   <testcase classname="ch.uzh.ifi.seal.changedistiller.treedifferencing.matching.measure.WhenStringSimilarityByTokensIsCalculated" name="lineCommentsAndStringsWithCommonTokensShouldBeSimilar" time="0"/>
   <testcase classname="ch.uzh.ifi.seal.changedistiller.treedifferencing.matching.measure.WhenStringSimilarityByTokensIsCalculated" name="stringsWithTheCommonTokensShouldBeSimilar" time="0"/>
   <testcase classname="ch.uzh.ifi.seal.changedistiller.treedifferencing.matching.measure.WhenStringSimilarityByTokensIsCalculated" name="emptyStringsShouldBeSimilar" time="0"/>
-  <testcase classname="ch.uzh.ifi.seal.changedistiller.treedifferencing.matching.measure.WhenStringSimilarityByTokensIsCalculated" name="stringsWithTheSameTokensShouldBeSimilar" time="0"/>
+  <testcase classname="ch.uzh.ifi.seal.changedistiller.treedifferencing.matching.measure.WhenStringSimilarityByTokensIsCalculated" name="stringsWithTheSameTokensShouldBeSimilar" time="0.001"/>
   <testcase classname="ch.uzh.ifi.seal.changedistiller.treedifferencing.matching.measure.WhenStringSimilarityByTokensIsCalculated" name="completelyDifferentStringsShouldNotBeSimilar" time="0"/>
-  <testcase classname="ch.uzh.ifi.seal.changedistiller.treedifferencing.matching.measure.WhenStringSimilarityByTokensIsCalculated" name="identicalStringsShouldBeSimilar" time="0.001"/>
+  <testcase classname="ch.uzh.ifi.seal.changedistiller.treedifferencing.matching.measure.WhenStringSimilarityByTokensIsCalculated" name="identicalStringsShouldBeSimilar" time="0"/>
 </testsuite>

@@ -112,7 +112,7 @@ public class FileDistiller {
         }
 	}
 
-    public void extractClassifiedSourceCodeChanges(File left, File right, String version) {
+    public void extractClassifiedSourceCodeChanges(String left, String right, String version) {
     	fVersion = version;
     	this.extractClassifiedSourceCodeChanges(left, right);
     }

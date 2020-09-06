@@ -21,6 +21,7 @@ package ch.uzh.ifi.seal.changedistiller.ast;
  */
 
 import java.io.File;
+import com.google.inject.assistedinject.Assisted;
 
 /**
  * Factory interface to create {@link ASTHelper} from a {@link File} and a version number.
@@ -39,5 +40,5 @@ public interface ASTHelperFactory {
      * @return the AST helper acting on the file
      */
     @SuppressWarnings("rawtypes")
-    ASTHelper create(String file, String version);
+    ASTHelper create(@Assisted("file") String file, @Assisted("version") String version);
 }
